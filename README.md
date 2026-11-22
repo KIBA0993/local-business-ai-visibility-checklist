@@ -65,6 +65,28 @@ The takeaway: you need to show up **in the places AI reads**, not only on your o
 
 ---
 
+## Agent skills (Claude Code, Cursor, Codex)
+
+The checklist also comes as 5 agent skills, so an AI coding agent can do the work for you:
+
+| Skill | What it does |
+|---|---|
+| [`gbp-audit`](skills/gbp-audit/SKILL.md) | Compares your Google Business Profile with the top 3 on Google Maps and lists the fixes |
+| [`nap-consistency`](skills/nap-consistency/SKILL.md) | Checks your name, address and phone on Google, Apple Maps, Bing, Yelp and industry directories |
+| [`ai-answer-check`](skills/ai-answer-check/SKILL.md) | Asks ChatGPT, Gemini, Claude and Perplexity who they recommend in your city, and which sources they cite |
+| [`best-of-lists`](skills/best-of-lists/SKILL.md) | Finds the local "best of" lists AI keeps citing and drafts honest pitches to get on them |
+| [`local-site-basics`](skills/local-site-basics/SKILL.md) | Service and area pages, FAQ, LocalBusiness schema, AI crawlers in robots.txt, tap-to-call |
+
+Install all 5:
+
+```
+npx skills add KIBA0993/local-business-ai-visibility-checklist
+```
+
+Or copy any `skills/<name>/SKILL.md` into your agent's skills folder.
+
+---
+
 ## Free tool
 
 [MapDebut](https://mapdebut.com/?ref=github) runs a free check of whether Google Maps and AI assistants can find a new local business, and shows which sources each one read. *(Disclosure: MapDebut is built by the maintainer of this checklist.)*
